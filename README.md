@@ -13,7 +13,7 @@ This is a simple Todo List Application that provides basic functionality for man
 #### 1.2.1 Clone the repository:
  ```
       git clone https://github.com/gagandeepsingh101/CRUD-TODO-App
-      cd CRUD-TODO-APP
+      cd CRUD-TODO-App
       cd ./backend
 ``` 
 #### 1.2.2 Install dependencies:
