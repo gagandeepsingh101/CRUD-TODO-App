@@ -12,7 +12,7 @@ This is a simple Todo List Application that provides basic functionality for man
 ### 1.2 Getting Started:
 #### 1.2.1 Clone the repository:
  ```
-      git clone [https://github.com/your-username/todo-list-app.git](https://github.com/gagandeepsingh101/CRUD-TODO-App)
+      git clone https://github.com/your-username/todo-list-app.git
       cd todo-list-app/backend
 ``` 
 #### 1.2.2 Install dependencies:
