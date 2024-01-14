@@ -4,7 +4,9 @@ import { customErrorToast, customSuccessToast } from "./useCustomTodo";
 export const useNewInsertTodo = async (newTodoData) => {
 	try {
 		const response = await axios.post(
-			"/api/createTodo",
+			`${
+				import.meta.env.VITE_APP_SERVER_URL || "http://localhost:8000"
+			}/api/createTodo`,
 			{
 				title: newTodoData.title,
 				description: newTodoData.description,

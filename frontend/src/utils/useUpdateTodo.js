@@ -8,7 +8,9 @@ export const useUpdateTodo = async (
 ) => {
 	try {
 		const response = await axios.put(
-			"/api/updateParticularTodo",
+			`${
+				import.meta.env.VITE_APP_SERVER_URL || "http://localhost:8000"
+			}/api/updateParticularTodo`,
 			{
 				_id: todoId,
 				title: updateTodo.title,
